@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+  </head>
+  <body>
+    <header>
+      <img src="images\download (1).jpg" alt="baby" />
+      <h1>Rawa Osman Salim</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Blog.html">Blog</a></li>
+          <li><a href="Schedule.html">Schedule</a></li>
+          <li>
+            Layout Design
+            <ul>
+              <li><a href="">Float Layout with side nav.</a></li>
+              <li><a href="">FlexBox Layout with side nav.</a></li>
+              <li><a href="">Blog Grid view.</a></li>
+            </ul>
+          </li>
+          <li><a href="Signup.html">Signup</a></li>
+          <li><a href="Signin.html">Signin</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div>
+        <h2>Signup Form</h2>
+
+        <form action="">
+          <label for="Username">Username</label><br />
+          <input type="text" id="Username" placeholder="Username" /><br />
+          <label for="Fullname">Full Name</label><br />
+          <input type="text" id="Fullname" placeholder="Full name" /><br />
+          <label for="Email">Email</label><br />
+          <input
+            type="email"
+            id="Email"
+            placeholder="domain@example.com"
+          /><br />
+          <label for="Phone">Telephone</label><br />
+          <input
+            type="tel"
+            id="Phone"
+            placeholder="00964 000 000 00 00"
+          /><br />
+          <label for="Password">Password</label><br />
+          <input type="password" id="Password" placeholder="Password" /><br />
+          <label for="DOB">Date if Birth</label><br />
+          <input type="date" id="DOB" placeholder="mm/dd/yyyy" /><br />
+          <label for="ProfileColor">Profile Color</label><br />
+          <input type="color" id="ProfileColor" placeholder="" /><br />
+
+          <fieldset>
+            <legend>Marital status</legend>
+            <p>
+              <input
+                type="radio"
+                name="ZhyaniHasari"
+                id="Single"
+                value="single"
+                checked
+              />
+              <label for="Single">Single</label><br />
+              <input
+                type="radio"
+                name="ZhyaniHasari"
+                id="Married"
+                value="Married"
+              />
+              <label for="Married">Married</label><br />
+              <input
+                type="radio"
+                name="ZhyaniHasari"
+                id="Private"
+                value="it is private"
+              />
+              <label for="Single">It is Private</label><br />
+            </p>
+          </fieldset>
+
+          <label for="children">Number of Childrens</label> <br />
+          <select id="children">
+            <option value="">None</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option></select
+          ><br />
+          <label for="Degree">Choose your Degree</label><br />
+          <fieldset>
+            <input type="checkbox" id="diploma" />
+            <label for="diploma">Diploma</label><br />
+            <input type="checkbox" id="BCc" />
+            <label for="BSc">Bachelore of Scince (BSc)</label><br />
+            <input type="checkbox" id="master" />
+            <label for="master">Master</label><br />
+            <input type="checkbox" id="high-deploma" />
+            <label for="high-deplome">High Deplome</label><br />
+            <input type="checkbox" id="MSc" />
+            <label for="MSc">Master of Scince</label><br />
+          </fieldset>
+
+          <label for="About-you">About Yourself</label><br>
+          <textarea
+            name="about you"
+            id="About-you"
+            cols="60"
+            rows="10"
+            placeholder="About Yourself"
+          ></textarea
+          ><br />
+          <label for="cv">Upload your CV</label><br />
+          <fieldset>
+            <input type="file" />
+          </fieldset>
+          <fieldset>
+            <legend>Gender</legend>
+            <input type="radio" name="Gender" id="Male" value="male" checked>
+            <label for="Male">Male</label><br>
+            <input type="radio" name="Gender" id="Female" value="female">
+            <label for="Female">Femele</label>
+          </fieldset>
+          
+          <fieldset>
+            <legend>Agrrements</legend>
+            <p>Please read the terms and agreements</p>
+            <input type="checkbox" id="read-terms" value="true">
+            <label for="read-terms">I have read all the terms.</label><br>
+            <input type="checkbox" id="agree" value="agree">
+            <label for="agree">Yes, i'm agree.</label>
+          </fieldset>
+          <button type="submit">Signup</button>
+          <button type="reset">Reset</button>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <div>
+        <h4>Sitemap</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="Signin.html">Login</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Terms and Quick Links.</h4>
+        Tearm if usage
+        <ul>
+          <li><a href="#">Link 1</a></li>
+          <li><a href="#">Link 2</a></li>
+          <li><a href="#">Link 3</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Address and Contact</h4>
+        <p>
+          Erbil, kurdistan, Iraq <br />
+          Phone:0964 000 00 00 <br />
+          Email:example@domain.com
+        </p>
+        <aside></aside>
+      </div>
+    </footer>
+  </body>
+</html>
